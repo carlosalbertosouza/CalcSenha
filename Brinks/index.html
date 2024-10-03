@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CalcSenha</title>
+    <link rel="shortcut icon" href="imagem/images.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="imagem">
+           <h1>BRINK'S</h1>
+        </div>
+        <form id="loginForm">
+            <input type="password" id="password" placeholder="Senha" required>
+            <button type="submit">Entrar</button>
+            <p id="message"></p>
+        </form>
+          <!-- Div escondida para exibir a soma após o login -->
+        <section id="content" style="display:none;">
+            <div id="year"></div>
+            <div id="month"></div>
+            <div id="weekday"></div>
+            <div id="result"></div>
+            <div id="sum"></div>
+
+            <!-- Botões para selecionar o número fixo -->
+            <button id="fixedNumber1">BRINK'S</button>
+            <button id="fixedNumber2">CLIENTE</button>
+        </div>
+        <footer>
+            <h3>"Marca registrada @CARLÃO"</h3>
+        </footer>
+    </main>
+<script src="script.js"></script>    
+</body>
+</html>
